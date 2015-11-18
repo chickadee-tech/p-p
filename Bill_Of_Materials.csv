@@ -1,0 +1,3 @@
+part name,symbol,size (imp),max current,unit price,units per build,units in stock,order total,Manufacturer ID,source url,datasheet,datasheet2,,,
+20 pin receptacle (1.5mm),,,,$0.66,1,4,$0.66,DF40C-20DS-0.4V(51),http://www.digikey.com/product-detail/en/DF40C-20DS-0.4V(51)/H11619CT-ND/1969499,N,,,Total Cost,$2.16
+Chickadee Pololu Power v1,PCB,,,$1.50,1,2,$1.50,CKD-P-P-V1,,N,,,,

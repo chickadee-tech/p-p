@@ -1,0 +1,248 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Power-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 7150 7000 0    197  ~ 0
+Power
+$Comp
+L CONN_02X10 P1
+U 1 1 56443A8C
+P 1650 3750
+F 0 "P1" H 1650 4300 50  0000 C CNN
+F 1 "CONN_02X10" V 1650 3750 50  0000 C CNN
+F 2 "hirose-df40:DF40-1.5mm-20pin-Receptacle" H 1650 2550 60  0001 C CNN
+F 3 "" H 1650 2550 60  0000 C CNN
+	1    1650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR01
+U 1 1 56443E57
+P 650 4050
+F 0 "#PWR01" H 650 3900 50  0001 C CNN
+F 1 "+BATT" H 650 4190 50  0000 C CNN
+F 2 "" H 650 4050 60  0000 C CNN
+F 3 "" H 650 4050 60  0000 C CNN
+	1    650  4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4200 650  4200
+Wire Wire Line
+	650  4200 650  4050
+Wire Wire Line
+	1900 3300 1900 4200
+Connection ~ 1900 3400
+Connection ~ 1900 3500
+Connection ~ 1900 3600
+Connection ~ 1900 3700
+Connection ~ 1900 3800
+Connection ~ 1900 3900
+Connection ~ 1900 4000
+Connection ~ 1900 4100
+$Comp
+L GNDPWR #PWR02
+U 1 1 56443ECC
+P 2050 4300
+F 0 "#PWR02" H 2050 4100 50  0001 C CNN
+F 1 "GNDPWR" H 2050 4170 50  0000 C CNN
+F 2 "" H 2050 4250 60  0000 C CNN
+F 3 "" H 2050 4250 60  0000 C CNN
+	1    2050 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4200 2050 4200
+Wire Wire Line
+	2050 4200 2050 4300
+Wire Wire Line
+	1400 3300 1400 4100
+Connection ~ 1400 4000
+Connection ~ 1400 3900
+Connection ~ 1400 3800
+Connection ~ 1400 3700
+Connection ~ 1400 3600
+Connection ~ 1400 3500
+Connection ~ 1400 3400
+Wire Wire Line
+	900  3300 1400 3300
+Wire Wire Line
+	1200 3300 1200 3100
+$Comp
+L +5V #PWR03
+U 1 1 56443FAD
+P 1200 3100
+F 0 "#PWR03" H 1200 2950 50  0001 C CNN
+F 1 "+5V" H 1200 3240 50  0000 C CNN
+F 2 "" H 1200 3100 60  0000 C CNN
+F 3 "" H 1200 3100 60  0000 C CNN
+	1    1200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG04
+U 1 1 56443FC4
+P 1000 4100
+F 0 "#FLG04" H 1000 4195 50  0001 C CNN
+F 1 "PWR_FLAG" H 1000 4280 50  0000 C CNN
+F 2 "" H 1000 4100 60  0000 C CNN
+F 3 "" H 1000 4100 60  0000 C CNN
+	1    1000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG05
+U 1 1 56443FEA
+P 900 3150
+F 0 "#FLG05" H 900 3245 50  0001 C CNN
+F 1 "PWR_FLAG" H 900 3330 50  0000 C CNN
+F 2 "" H 900 3150 60  0000 C CNN
+F 3 "" H 900 3150 60  0000 C CNN
+	1    900  3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  3150 900  3300
+Connection ~ 1200 3300
+Wire Wire Line
+	1000 4100 1000 4200
+Connection ~ 1000 4200
+$Comp
+L CONN_01X05 P2
+U 1 1 56443F27
+P 4000 3000
+F 0 "P2" H 4000 3300 50  0000 C CNN
+F 1 "CONN_01X05" V 4100 3000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 4000 3000 60  0001 C CNN
+F 3 "" H 4000 3000 60  0000 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P3
+U 1 1 56443F4D
+P 4000 4050
+F 0 "P3" H 4000 4200 50  0000 C CNN
+F 1 "CONN_01X02" V 4100 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4000 4050 60  0001 C CNN
+F 3 "" H 4000 4050 60  0000 C CNN
+	1    4000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR06
+U 1 1 56443FCB
+P 3600 4300
+F 0 "#PWR06" H 3600 4100 50  0001 C CNN
+F 1 "GNDPWR" H 3600 4170 50  0000 C CNN
+F 2 "" H 3600 4250 60  0000 C CNN
+F 3 "" H 3600 4250 60  0000 C CNN
+	1    3600 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3800 3600 4000
+Wire Wire Line
+	3600 4000 3800 4000
+Wire Wire Line
+	3800 4100 3600 4100
+Wire Wire Line
+	3600 4100 3600 4300
+Wire Wire Line
+	3800 3100 2950 3100
+Wire Wire Line
+	2950 3100 2950 3300
+$Comp
+L GNDPWR #PWR07
+U 1 1 56444055
+P 2950 3300
+F 0 "#PWR07" H 2950 3100 50  0001 C CNN
+F 1 "GNDPWR" H 2950 3170 50  0000 C CNN
+F 2 "" H 2950 3250 60  0000 C CNN
+F 3 "" H 2950 3250 60  0000 C CNN
+	1    2950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +BATT #PWR08
+U 1 1 56444072
+P 3400 3000
+F 0 "#PWR08" H 3400 2850 50  0001 C CNN
+F 1 "+BATT" H 3400 3140 50  0000 C CNN
+F 2 "" H 3400 3000 60  0000 C CNN
+F 3 "" H 3400 3000 60  0000 C CNN
+	1    3400 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3300 3800 3300
+Wire Wire Line
+	3800 3300 3800 3200
+$Comp
+L +BATT #PWR09
+U 1 1 564440CE
+P 3600 3800
+F 0 "#PWR09" H 3600 3650 50  0001 C CNN
+F 1 "+BATT" H 3600 3940 50  0000 C CNN
+F 2 "" H 3600 3800 60  0000 C CNN
+F 3 "" H 3600 3800 60  0000 C CNN
+	1    3600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3000 3400 3000
+$Comp
+L +5V #PWR010
+U 1 1 5644412C
+P 3500 3300
+F 0 "#PWR010" H 3500 3150 50  0001 C CNN
+F 1 "+5V" H 3500 3440 50  0000 C CNN
+F 2 "" H 3500 3300 60  0000 C CNN
+F 3 "" H 3500 3300 60  0000 C CNN
+	1    3500 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3800 2800
+NoConn ~ 3800 2900
+$EndSCHEMATC
