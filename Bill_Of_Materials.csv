@@ -1,3 +1,7 @@
 part name,symbol,size (imp),max current,unit price,units per build,units in stock,order total,Manufacturer ID,source url,datasheet,datasheet2,,,
-20 pin receptacle (1.5mm),,,,$0.66,1,4,$0.66,DF40C-20DS-0.4V(51),http://www.digikey.com/product-detail/en/DF40C-20DS-0.4V(51)/H11619CT-ND/1969499,N,,,Total Cost,$2.16
-Chickadee Pololu Power v1,PCB,,,$1.50,1,2,$1.50,CKD-P-P-V1,,N,,,,
+20 pin receptacle (1.5mm),,,,$0.66,1,4,$0.66,DF40C-20DS-0.4V(51),http://www.digikey.com/product-detail/en/DF40C-20DS-0.4V(51)/H11619CT-ND/1969499,N,,,Total Cost,$3.10
+Chickadee Pololu Power v2,PCB,,,$1.50,1,6,$1.50,CKD-P-P-V2,,N,,,,
+R 10k,R2,,,$0.01,1,979,$0.01,RC0603FR-0710KL,http://www.digikey.com/product-detail/en/RC0603FR-0710KL/311-10.0KHRCT-ND/729827,MF-RES-0603-10K,http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf,,,
+R 100k,R1,,,$0.01,1,55,$0.01,RC0603FR-07100KL,http://www.digikey.com/product-detail/en/RC0603FR-07100KL/311-100KHRCT-ND/729836,MF-RES-0603-100K,http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf,,,
+~1.5mm Spacer,Off-Board,,,$0.08,4,81,$0.32,908-060,http://www.mouser.com/ProductDetail/Bivar/908-060/?qs=GLEjZbDuyKNtD4uKTYVYNA%3D%3D,N,http://www.bivar.com/Portals/0/Products/d.ashx?f=/Portals/0/products/9XX-XXX.pdf,,,
+Chickadee Spacer,Off-Board,,,$0.60,1,6,$0.60,CKD-SPCR-V2,,N,,,,
