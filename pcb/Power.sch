@@ -44,7 +44,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 7150 7000 0    197  ~ 0
-Power
+Pololu Power v5
 $Comp
 L CONN_02X10 P1
 U 1 1 56443A8C
@@ -79,17 +79,6 @@ F 3 "" H 1200 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
-U 1 1 56443FC4
-P 3550 4050
-F 0 "#FLG03" H 3550 4145 50  0001 C CNN
-F 1 "PWR_FLAG" H 3550 4230 50  0000 C CNN
-F 2 "" H 3550 4050 60  0000 C CNN
-F 3 "" H 3550 4050 60  0000 C CNN
-	1    3550 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L PWR_FLAG #FLG04
 U 1 1 56443FEA
 P 900 3150
@@ -109,28 +98,6 @@ F 1 "CONN_01X05" V 4100 3000 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 4000 3000 60  0001 C CNN
 F 3 "" H 4000 3000 60  0000 C CNN
 	1    4000 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X02 P3
-U 1 1 56443F4D
-P 3750 4150
-F 0 "P3" H 3750 4300 50  0000 C CNN
-F 1 "CONN_01X02" V 3850 4150 50  0000 C CNN
-F 2 "pin-headers:16awg_Pin_Header_Straight_1x02" H 3750 4150 60  0001 C CNN
-F 3 "" H 3750 4150 60  0000 C CNN
-	1    3750 4150
-	1    0    0    1   
-$EndComp
-$Comp
-L GNDPWR #PWR05
-U 1 1 56443FCB
-P 3350 4400
-F 0 "#PWR05" H 3350 4200 50  0001 C CNN
-F 1 "GNDPWR" H 3350 4270 50  0000 C CNN
-F 2 "" H 3350 4350 60  0000 C CNN
-F 3 "" H 3350 4350 60  0000 C CNN
-	1    3350 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -156,17 +123,6 @@ F 3 "" H 3400 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR08
-U 1 1 564440CE
-P 3350 3900
-F 0 "#PWR08" H 3350 3750 50  0001 C CNN
-F 1 "+BATT" H 3350 4040 50  0000 C CNN
-F 2 "" H 3350 3900 60  0000 C CNN
-F 3 "" H 3350 3900 60  0000 C CNN
-	1    3350 3900
-	1    0    0    -1  
-$EndComp
-$Comp
 L +5V #PWR09
 U 1 1 5644412C
 P 3500 3300
@@ -180,7 +136,7 @@ $EndComp
 NoConn ~ 3800 2800
 NoConn ~ 3800 2900
 Wire Wire Line
-	1900 3300 1900 4200
+	1900 3100 1900 4200
 Connection ~ 1900 3400
 Connection ~ 1900 3500
 Connection ~ 1900 3600
@@ -193,8 +149,6 @@ Wire Wire Line
 	1900 4200 2050 4200
 Wire Wire Line
 	2050 4200 2050 4300
-Wire Wire Line
-	1400 3300 1400 4100
 Connection ~ 1400 4000
 Connection ~ 1400 3900
 Connection ~ 1400 3800
@@ -203,20 +157,10 @@ Connection ~ 1400 3600
 Connection ~ 1400 3500
 Connection ~ 1400 3400
 Wire Wire Line
-	900  3300 1400 3300
-Wire Wire Line
-	1200 3300 1200 3100
+	1200 3100 1200 3400
 Wire Wire Line
 	900  3150 900  3300
 Connection ~ 1200 3300
-Wire Wire Line
-	3350 3900 3350 4100
-Wire Wire Line
-	3350 4100 3550 4100
-Wire Wire Line
-	3550 4200 3350 4200
-Wire Wire Line
-	3350 4200 3350 4400
 Wire Wire Line
 	3500 3300 3800 3300
 Wire Wire Line
@@ -227,8 +171,6 @@ Wire Wire Line
 	3800 3100 2950 3100
 Wire Wire Line
 	2950 3100 2950 3300
-Wire Wire Line
-	3550 4100 3550 4050
 $Comp
 L +BATT #PWR010
 U 1 1 56929CC6
@@ -336,4 +278,15 @@ Wire Wire Line
 	4450 4200 4450 4400
 Wire Wire Line
 	4650 4100 4650 4050
+Wire Wire Line
+	1400 3300 1400 3100
+Wire Wire Line
+	1400 3100 1900 3100
+Connection ~ 1900 3300
+Wire Wire Line
+	900  3300 1200 3300
+Wire Wire Line
+	1200 3400 1400 3400
+Wire Wire Line
+	1400 3400 1400 4100
 $EndSCHEMATC
