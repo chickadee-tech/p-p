@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Power-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -43,7 +42,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7150 7000 0    197  ~ 0
+Text Notes 7350 7550 0    118  ~ 0
 Pololu Power v5
 $Comp
 L CONN_02X10 P1
@@ -289,4 +288,6 @@ Wire Wire Line
 	1200 3400 1400 3400
 Wire Wire Line
 	1400 3400 1400 4100
+Text Notes 7050 7050 0    60   ~ 0
+Copyright 2016 Chickadee Tech LLC\n\nThis work is licensed under the Creative Commons Attribution 4.0 International License.\nTo view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/\nor send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.\n
 $EndSCHEMATC
